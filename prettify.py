@@ -1,5 +1,5 @@
 #!/usr/bin/env python
-"""prettify an html or xml file v1.0.0
+"""prettify an html or xml file v1.0.1
 
 Usage:
 	prettify [options] [original-file [prettified-file]]
