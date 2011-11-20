@@ -1,4 +1,5 @@
-"""prettify an html or xml file
+#!/usr/bin/env python
+"""prettify an html or xml file v1.0.0
 
 Usage:
 	prettify [options] [original-file [prettified-file]]
@@ -11,7 +12,7 @@ import sys
 import getopt
 import os
 try:
-	from BeautifulSoupX import BeautifulSoup as soup
+	from BeautifulSoup import BeautifulSoup as soup
 except ImportError:
 	sys.stderr.write("Beautiful Soup is required to use prettify, see: http://www.crummy.com/software/BeautifulSoup/\n")
 	sys.exit(20) 
